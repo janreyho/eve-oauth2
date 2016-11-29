@@ -30,4 +30,4 @@ def restricted_access():
     return "You made it through and accessed the protected resource!"
 
 if __name__ == '__main__':
-    app.run(ssl_context='adhoc')
+    app.run(ssl_context=('/Users/hejiayi/Desktop/python/eve/eve-oauth2/openssl/server.crt','/Users/hejiayi/Desktop/python/eve/eve-oauth2/openssl/server.key'))
